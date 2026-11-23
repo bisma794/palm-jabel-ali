@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FS Real Estate Advisory - The Coral Collection</title>
+    <meta name="description" content="The Coral Collection at Palm Jebel Ali." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts: Montserrat for sans-serif, Playfair Display for serif headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body class="bg-[#1a1a1a] text-white antialiased font-sans selection:bg-coral-gold selection:text-white min-h-screen flex flex-col m-0 p-0 overflow-x-hidden">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="relative w-full h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('/cover_img.png');">
+      <!-- Dark overlay for better text readability -->
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <!-- Header -->
+      <header class="absolute top-0 left-0 w-full z-50 border-b border-white/20 px-8 py-4 flex justify-between items-center bg-gradient-to-b from-black/40 to-transparent">
+        
+        <!-- Left Logo: FS Real Estate Advisory -->
+        <div class="flex items-center gap-4">
+          <div class="text-4xl font-serif text-white tracking-widest relative" style="font-family: 'Playfair Display', serif;">
+            FS
+            <!-- Optional divider line if matching exactly -->
+          </div>
+          <div class="flex flex-col text-white tracking-widest text-xs font-light">
+            <span class="tracking-[0.3em]">REAL ESTATE</span>
+            <div class="flex items-center gap-2 mt-1">
+              <span class="h-[1px] w-6 bg-white"></span>
+              <span class="tracking-[0.2em] text-[10px]">ADVISORY</span>
+              <span class="h-[1px] w-6 bg-white"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Nav -->
+        <nav class="hidden lg:flex items-center gap-10 text-[11px] font-semibold tracking-widest uppercase">
+          <a href="#" class="text-[#C5A880] hover:text-white transition-colors duration-300">Palm Jebel Ali</a>
+          <a href="#" class="text-white hover:text-[#C5A880] transition-colors duration-300">Amenities</a>
+          <a href="#" class="text-white hover:text-[#C5A880] transition-colors duration-300 flex items-center gap-1">
+            Residences <i class="fa-solid fa-chevron-down text-[9px]"></i>
+          </a>
+          <a href="#" class="text-white hover:text-[#C5A880] transition-colors duration-300">Location</a>
+          <a href="#" class="text-white hover:text-[#C5A880] transition-colors duration-300">Developer</a>
+        </nav>
+
+        <!-- Right Logos / Icons -->
+        <div class="flex items-center gap-6">
+          <div class="text-xl font-bold tracking-wider uppercase text-white hidden md:block">
+            Nakheel
+          </div>
+          <div class="flex items-center gap-3">
+            <a href="#" class="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#C5A880] hover:scale-110 transition-transform duration-300">
+              <i class="fa-regular fa-envelope text-sm"></i>
+            </a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#C5A880] hover:scale-110 transition-transform duration-300">
+              <i class="fa-solid fa-phone text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Content Center -->
+      <div class="relative z-10 w-full h-full flex flex-col justify-center items-center text-center px-4 mt-12">
+        <h1 class="font-serif text-5xl md:text-7xl lg:text-[5rem] leading-tight mb-2 tracking-widest" style="font-family: 'Playfair Display', serif;">
+          <span class="text-white block">T H E C O R A L</span>
+          <span class="text-[#C5A880] block mt-2">C O L L E C T I O N</span>
+        </h1>
+        
+        <p class="mt-6 max-w-3xl text-xs md:text-sm font-semibold tracking-[0.2em] uppercase text-white/90 leading-relaxed mb-10">
+          Imagine living in a space where everything is seamlessly connected. In a coral villa, everything is lit up by passion and perfection.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-6 mt-4">
+          <button class="bg-[#C5A880] text-white px-8 py-3.5 rounded text-sm font-semibold tracking-widest hover:bg-[#b09672] transition-colors duration-300 cosmic-lift">
+            DOWNLOAD PAYMENT PLAN
+          </button>
+          <button class="bg-transparent border border-white text-white px-8 py-3.5 rounded text-sm font-semibold tracking-widest hover:bg-white hover:text-black transition-colors duration-300 cosmic-lift">
+            DOWNLOAD BROCHURE
+          </button>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Landmark Section -->
+    <section id="landmark" class="w-full bg-[#FDFBF7] py-24 px-4 flex flex-col items-center text-center">
+      <!-- Small Title -->
+      <h3 class="text-gray-500 tracking-[0.3em] text-[12px] font-semibold uppercase mb-4">Pioneering Perfection</h3>
+      
+      <!-- Main Title -->
+      <h2 class="text-[#C5A880] font-serif text-4xl md:text-5xl leading-snug tracking-[0.2em] uppercase mb-16" style="font-family: 'Playfair Display', serif;">
+        A Landmark Of<br/>Luxury Living
+      </h2>
+
+      <!-- Icons Row -->
+      <div class="flex flex-col md:flex-row justify-center items-start gap-12 md:gap-32 mb-16">
+        <!-- Item 1 -->
+        <div class="flex flex-col items-center group cursor-pointer">
+          <div class="text-[#C5A880] text-4xl mb-6 transition-transform duration-300 group-hover:-translate-y-2">
+            <i class="fa-solid fa-umbrella-beach"></i>
+          </div>
+          <p class="text-gray-400 font-medium text-[15px] tracking-widest transition-all duration-300 group-hover:text-gray-700 group-hover:font-bold">
+            A Perfect Paradise<br/>Archipelago
+          </p>
+        </div>
+        
+        <!-- Item 2 -->
+        <div class="flex flex-col items-center group cursor-pointer">
+          <div class="text-[#C5A880] text-4xl mb-6 transition-transform duration-300 group-hover:-translate-y-2">
+            <i class="fa-solid fa-city"></i>
+          </div>
+          <p class="text-gray-400 font-medium text-[15px] tracking-widest transition-all duration-300 group-hover:text-gray-700 group-hover:font-bold">
+            10,500,000 Sqm Of<br/>Development
+          </p>
+        </div>
+        
+        <!-- Item 3 -->
+        <div class="flex flex-col items-center group cursor-pointer">
+          <div class="text-[#C5A880] text-4xl mb-6 transition-transform duration-300 group-hover:-translate-y-2">
+            <i class="fa-solid fa-martini-glass-citrus"></i>
+          </div>
+          <p class="text-gray-400 font-medium text-[15px] tracking-widest transition-all duration-300 group-hover:text-gray-700 group-hover:font-bold">
+            80+ Resorts<br/>& Hotels
+          </p>
+        </div>
+      </div>
+
+      <!-- Paragraph -->
+      <p class="max-w-5xl text-gray-400 text-[12px] leading-[2.5] tracking-[0.2em] mb-12 text-center px-4 font-medium">
+        Palm Jebel Ali rises from the glistening waters of the Arabian Gulf to form a perfect paradise archipelago. The remarkable city-scale development off the coast of Dubai represents the journey of a nation to create a remarkable destination that is the epitome of perfection. On the magnificent islands of Palm Jebel Ali, green living blends seamlessly with azure-coloured coasts to create several spectacular neighbourhoods. Discover exclusive lifestyle amenities, ultra-luxury homes, outstanding hotels, and extraordinary entertainment venues set on near endless stretches of waterfront. This iconic project is a true masterpiece of design that will redefine the meaning of luxury living.
+      </p>
+
+      <!-- Button -->
+      <button class="bg-[#C5A880] text-white px-8 py-3.5 rounded text-[11px] font-bold tracking-widest hover:bg-[#b09672] transition-colors duration-300 cosmic-lift uppercase">
+        Discover More
+      </button>
+    </section>
+
+    <!-- The Coral Collection - Frond F / Beach Collection Section -->
+    <section id="beach-collection" class="w-full bg-[#F7F6F3] py-20 px-4 md:px-10 lg:px-16">
+      <div class="max-w-7xl mx-auto flex flex-col items-center">
+        <!-- Top Palm Emblem -->
+        <img src="/palm 1.png" alt="Palm Jebel Ali Emblem" class="w-20 h-20 object-contain mb-4 opacity-90" />
+
+        <!-- Subtitle -->
+        <span class="text-[#B89860] text-[11px] font-semibold tracking-[0.28em] uppercase mb-2">
+          Frond F
+        </span>
+
+        <!-- Main Heading -->
+        <h2 class="text-[#B89860] font-serif text-2xl sm:text-3xl md:text-4xl tracking-[0.28em] uppercase text-center mb-3" style="font-family: 'Playfair Display', serif;">
+          The Coral Collection
+        </h2>
+
+        <!-- Tagline -->
+        <p class="text-[#2D2D2D] text-[11px] md:text-xs font-medium tracking-[0.22em] uppercase mb-8 text-center">
+          Sublime Seafront Residences
+        </p>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col items-center gap-3 mb-16">
+          <div class="flex flex-wrap justify-center gap-3">
+            <button class="bg-white/70 border border-[#D8D2C7] text-[#2D2D2D] px-9 py-2.5 rounded-md text-[10px] font-medium tracking-[0.2em] uppercase hover:bg-white transition-colors duration-300">
+              Brochure
+            </button>
+            <button class="bg-black text-white px-9 py-2.5 rounded-md text-[10px] font-medium tracking-[0.2em] uppercase hover:bg-neutral-800 transition-colors duration-300">
+              Floor Plans
+            </button>
+          </div>
+          <button class="bg-[#C2A265] text-[#1A1A1A] px-10 py-2.5 rounded-md text-[10px] font-semibold tracking-[0.2em] uppercase hover:bg-[#b39356] transition-colors duration-300">
+            Submit EOI
+          </button>
+        </div>
+
+        <!-- Collection Subheading -->
+        <div class="w-full mb-6">
+          <h3 class="text-[#262626] text-sm md:text-base font-semibold tracking-[0.25em] uppercase">
+            The Beach Collection
+          </h3>
+        </div>
+
+        <!-- 4-Column Villa Cards Grid -->
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          
+          <!-- Card 1: Cyan Sky -->
+          <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+            <div class="relative h-56 w-full overflow-hidden">
+              <img src="/Rectangle 34624630.png" alt="Cyan Sky Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <!-- Warm Golden-Brown Bottom Overlay -->
+              <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+              <!-- Top-left Badge -->
+              <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                Villa I
+              </span>
+              <!-- Villa Name -->
+              <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                Cyan Sky
+              </h4>
+            </div>
+
+            <div class="p-4 flex flex-col flex-1 justify-between text-white">
+              <div>
+                <!-- Specs Header -->
+                <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                  <span>6-BEDROOM</span>
+                  <span class="h-3 w-[1px] bg-white/30"></span>
+                  <span>G+2</span>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <!-- Areas -->
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                      <span>Total Built-Up Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">7,723</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                      <span>Plot Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">7,376–8,213</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <!-- Amenities -->
+                <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-warehouse text-[#C2A265] text-[10px]"></i>
+                    <span>Garage</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                    <span>Family Room</span>
+                  </div>
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                    <span>Roof Lounge &amp; Terrace</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="border-t border-white/15 my-3.5"></div>
+                <!-- Footer -->
+                <div class="flex items-center justify-between gap-2">
+                  <div>
+                    <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                    <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 29.34M</span>
+                  </div>
+                  <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                    View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Wave Crest -->
+          <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+            <div class="relative h-56 w-full overflow-hidden">
+              <img src="/Rectangle 34624630-1.png" alt="Wave Crest Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+              <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                Villa P
+              </span>
+              <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                Wave Crest
+              </h4>
+            </div>
+
+            <div class="p-4 flex flex-col flex-1 justify-between text-white">
+              <div>
+                <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                  <span>5-BEDROOM</span>
+                  <span class="h-3 w-[1px] bg-white/30"></span>
+                  <span>G+2</span>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                      <span>Total Built-Up Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">774</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                      <span>Plot Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">7,376–7,568</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                    <span>Family Room</span>
+                  </div>
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                    <span>Roof Lounge &amp; Terrace</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="border-t border-white/15 my-3.5"></div>
+                <div class="flex items-center justify-between gap-2">
+                  <div>
+                    <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                    <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 30.81M</span>
+                  </div>
+                  <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                    View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Ocean Whisper -->
+          <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+            <div class="relative h-56 w-full overflow-hidden">
+              <img src="/Rectangle 34624630-2.png" alt="Ocean Whisper Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+              <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                Villa Q
+              </span>
+              <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                Ocean Whisper
+              </h4>
+            </div>
+
+            <div class="p-4 flex flex-col flex-1 justify-between text-white">
+              <div>
+                <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                  <span>6-BEDROOM</span>
+                  <span class="h-3 w-[1px] bg-white/30"></span>
+                  <span>G+2</span>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                      <span>Total Built-Up Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">8,320</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                      <span>Plot Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">7,376–8,366</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-book-open text-[#C2A265] text-[10px]"></i>
+                    <span>Study Room</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                    <span>Family Room</span>
+                  </div>
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                    <span>Roof Lounge &amp; Terrace</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="border-t border-white/15 my-3.5"></div>
+                <div class="flex items-center justify-between gap-2">
+                  <div>
+                    <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                    <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 29.34M</span>
+                  </div>
+                  <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                    View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Bluejay -->
+          <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+            <div class="relative h-56 w-full overflow-hidden">
+              <img src="/Rectangle 34624630-3.png" alt="Bluejay Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+              <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                Villa R
+              </span>
+              <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                Bluejay
+              </h4>
+            </div>
+
+            <div class="p-4 flex flex-col flex-1 justify-between text-white">
+              <div>
+                <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                  <span>6-BEDROOM</span>
+                  <span class="h-3 w-[1px] bg-white/30"></span>
+                  <span>G+2</span>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                      <span>Total Built-Up Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">8,289</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                      <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                      <span>Plot Area</span>
+                    </div>
+                    <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">7,376–7,579</p>
+                    <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                  </div>
+                </div>
+
+                <div class="border-t border-white/15 my-3.5"></div>
+
+                <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                    <span>Family Room</span>
+                  </div>
+                  <div class="col-span-2 flex items-center gap-2">
+                    <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                    <span>Roof Lounge &amp; Terrace</span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="border-t border-white/15 my-3.5"></div>
+                <div class="flex items-center justify-between gap-2">
+                  <div>
+                    <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                    <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 29.34M</span>
+                  </div>
+                  <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                    View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- THE CORAL COLLECTION -->
+        <div class="w-full mt-20 mb-6">
+          <h3 class="text-[#262626] text-sm md:text-base font-semibold tracking-[0.25em] uppercase">
+            The Coral Collection
+          </h3>
+        </div>
+
+        <!-- Carousel Wrapper with Left/Right Arrows -->
+        <div class="relative w-full">
+          <!-- Left Arrow -->
+          <button aria-label="Previous" class="hidden xl:flex absolute -left-10 top-1/2 -translate-y-1/2 text-[#4A4A4A] hover:text-black transition-colors text-lg">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <!-- 4-Column Coral Collection Grid -->
+          <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            
+            <!-- Card 1: Coral Dune -->
+            <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+              <div class="relative h-56 w-full overflow-hidden">
+                <img src="/Rectangle 34624630-4.png" alt="Coral Dune Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+                <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                  Villa I
+                </span>
+                <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                  Coral Dune
+                </h4>
+              </div>
+
+              <div class="p-4 flex flex-col flex-1 justify-between text-white">
+                <div>
+                  <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                    <span>6-BEDROOM</span>
+                    <span class="h-3 w-[1px] bg-white/30"></span>
+                    <span>G+2</span>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-3">
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                        <span>Total Built-Up Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">11,635</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                        <span>Plot Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">18,908–21,245</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                    <div class="col-span-2 flex items-center gap-2">
+                      <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                      <span>Formal &amp; Family Lounges</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                      <span>Roof Lounge &amp; Terrace</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-book-open text-[#C2A265] text-[10px]"></i>
+                      <span>Study Room</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="border-t border-white/15 my-3.5"></div>
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                      <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 47.90M</span>
+                    </div>
+                    <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                      View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Sunset Mirage -->
+            <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+              <div class="relative h-56 w-full overflow-hidden">
+                <img src="/Sunset-Mirage-Villa-at-Palm-Jebel-Ali-1.png" alt="Sunset Mirage Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+                <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                  Villa M
+                </span>
+                <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                  Sunset Mirage
+                </h4>
+              </div>
+
+              <div class="p-4 flex flex-col flex-1 justify-between text-white">
+                <div>
+                  <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                    <span>6-BEDROOM</span>
+                    <span class="h-3 w-[1px] bg-white/30"></span>
+                    <span>G+2</span>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-3">
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                        <span>Total Built-Up Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">11,701</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                        <span>Plot Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">17,621–21,666</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                      <span>Formal &amp; Family Lounges</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-briefcase text-[#C2A265] text-[10px]"></i>
+                      <span>Office</span>
+                    </div>
+                    <div class="col-span-2 flex items-center gap-2">
+                      <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                      <span>Roof Lounge &amp; Terrace</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="border-t border-white/15 my-3.5"></div>
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                      <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 47.90M</span>
+                    </div>
+                    <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                      View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Amber Reef -->
+            <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+              <div class="relative h-56 w-full overflow-hidden">
+                <img src="/01-palm-jebel-ali-amber-reef-signature-villa-sea-view.jpg.webp" alt="Amber Reef Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+                <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                  Villa R
+                </span>
+                <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                  Amber Reef
+                </h4>
+              </div>
+
+              <div class="p-4 flex flex-col flex-1 justify-between text-white">
+                <div>
+                  <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                    <span>7-BEDROOM</span>
+                    <span class="h-3 w-[1px] bg-white/30"></span>
+                    <span>G+2</span>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-3">
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                        <span>Total Built-Up Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">12,430</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                        <span>Plot Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">18,065–20,859</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-book-open text-[#C2A265] text-[10px]"></i>
+                      <span>Study Room</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                      <span>Family Room</span>
+                    </div>
+                    <div class="col-span-2 flex items-center gap-2">
+                      <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                      <span>Roof Lounge &amp; Terrace</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="border-t border-white/15 my-3.5"></div>
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                      <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 49.39M</span>
+                    </div>
+                    <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                      View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4: Red Aurora -->
+            <div class="bg-[#041527] rounded-xl overflow-hidden shadow-lg flex flex-col group">
+              <div class="relative h-56 w-full overflow-hidden">
+                <img src="/68d5362bbe8692e803571924_Palm Jebel Ali - The Coral Collection - Red Aurora - Coral Collection Page.jpg" alt="Red Aurora Villa" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#8B734B]/90 via-[#8B734B]/25 to-transparent"></div>
+                <span class="absolute top-3 left-3 bg-[#C2A265]/90 text-white text-[10px] font-medium tracking-wider px-2.5 py-1 rounded">
+                  Villa C
+                </span>
+                <h4 class="absolute bottom-3 left-4 text-white font-serif text-2xl tracking-wide" style="font-family: 'Playfair Display', serif;">
+                  Red Aurora
+                </h4>
+              </div>
+
+              <div class="p-4 flex flex-col flex-1 justify-between text-white">
+                <div>
+                  <div class="flex items-center gap-3 text-[11px] font-semibold tracking-[0.15em] uppercase">
+                    <span>7-BEDROOM</span>
+                    <span class="h-3 w-[1px] bg-white/30"></span>
+                    <span>G+2</span>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-3">
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-regular fa-building text-[#C2A265] text-[10px]"></i>
+                        <span>Total Built-Up Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">11,670</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1.5 text-[8px] text-gray-300 tracking-wider uppercase mb-1">
+                        <i class="fa-solid fa-vector-square text-[#C2A265] text-[10px]"></i>
+                        <span>Plot Area</span>
+                      </div>
+                      <p class="font-serif text-sm text-white leading-tight" style="font-family: 'Playfair Display', serif;">18,246–21,943</p>
+                      <span class="text-[8px] font-bold tracking-wider uppercase text-gray-300">SQFT</span>
+                    </div>
+                  </div>
+
+                  <div class="border-t border-white/15 my-3.5"></div>
+
+                  <div class="grid grid-cols-2 gap-y-2.5 gap-x-2 text-[9px] text-gray-200 mb-2">
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-couch text-[#C2A265] text-[10px]"></i>
+                      <span>Family Room</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <i class="fa-solid fa-book-open text-[#C2A265] text-[10px]"></i>
+                      <span>Study Room</span>
+                    </div>
+                    <div class="col-span-2 flex items-center gap-2">
+                      <i class="fa-solid fa-umbrella-beach text-[#C2A265] text-[10px]"></i>
+                      <span>Roof Lounge &amp; Terrace</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="border-t border-white/15 my-3.5"></div>
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <span class="block text-[8px] text-gray-300 tracking-widest uppercase">Launch Price</span>
+                      <span class="font-serif text-sm text-[#C2A265]" style="font-family: 'Playfair Display', serif;">AED 49.39M</span>
+                    </div>
+                    <button class="bg-[#C2A265] hover:bg-[#b39356] text-white text-[8px] font-semibold tracking-wider uppercase px-3 py-2 rounded flex items-center gap-1.5 transition-colors duration-300">
+                      View Villa Details <i class="fa-solid fa-arrow-right text-[9px]"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Arrow -->
+          <button aria-label="Next" class="hidden xl:flex absolute -right-10 top-1/2 -translate-y-1/2 text-[#4A4A4A] hover:text-black transition-colors text-lg">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Pagination Dots -->
+        <div class="flex items-center justify-center gap-2.5 mt-10">
+          <span class="w-2 h-2 bg-[#D5D1C8] rounded-[2px]"></span>
+          <span class="w-2 h-2 bg-[#D5D1C8] rounded-[2px]"></span>
+          <span class="w-2 h-2 bg-[#262626] rounded-[2px]"></span>
+          <span class="w-2 h-2 bg-[#D5D1C8] rounded-[2px]"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Trunk Banner Section -->
+    <section id="the-trunk" class="relative w-full min-h-[460px] md:min-h-[520px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center px-4 py-20" style="background-image: url('/Image-1.png');">
+      <!-- Matte Dark Overlay -->
+      <div class="absolute inset-0 bg-[#1c1d1f]/60"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-white tracking-[0.38em] uppercase font-normal mb-3" style="font-family: 'Playfair Display', serif;">
+          The Trunk
+        </h2>
+
+        <p class="text-white/90 text-[11px] md:text-xs tracking-[0.22em] uppercase font-light mb-7">
+          \ Social. Hip. Energetic.
+        </p>
+
+        <p class="max-w-3xl text-white/90 text-sm md:text-[17px] font-light leading-relaxed mb-9 px-2">
+          This mixed-use urban hub presents high-rise apartments and penthouses with framed views and waterfront connectivity. Discover a world of amenities on your doorstep, including fine dining restaurants, street-side cafes, shops, private offices, green parks, and biking paths.
+        </p>
+
+        <button class="bg-[#C5A880] hover:bg-[#b09672] text-white px-9 py-3.5 rounded text-[11px] font-semibold tracking-[0.2em] uppercase transition-colors duration-300 cosmic-lift">
+          Download Payment Plan
+        </button>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="w-full bg-[#FBF9F5] py-20 px-4 md:px-10 lg:px-16">
+      <div class="max-w-7xl mx-auto">
+        <!-- Heading -->
+        <h2 class="font-serif text-2xl md:text-3xl text-[#B89860] tracking-[0.28em] uppercase mb-8" style="font-family: 'Playfair Display', serif;">
+          Gallery
+        </h2>
+
+        <!-- Asymmetric 2-Row Bento Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
+          
+          <!-- Row 1 Left: Villa Amber Reef (7 cols) -->
+          <div class="md:col-span-7 relative h-[280px] sm:h-[320px] md:h-[360px] overflow-hidden group">
+            <img src="/01-palm-jebel-ali-amber-reef-signature-villa-sea-view.jpg.webp" alt="Villa Amber Reef" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+            <div class="absolute bottom-5 left-6 text-white">
+              <span class="block text-[9px] font-semibold tracking-[0.25em] uppercase text-white/90 mb-1">Villa</span>
+              <h3 class="font-serif text-sm md:text-base tracking-[0.22em] uppercase" style="font-family: 'Playfair Display', serif;">
+                Amber Reef
+              </h3>
+            </div>
+          </div>
+
+          <!-- Row 1 Right: Villa Coral Dune (5 cols) -->
+          <div class="md:col-span-5 relative h-[280px] sm:h-[320px] md:h-[360px] overflow-hidden group">
+            <img src="/Rectangle 34624630-4.png" alt="Villa Coral Dune" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+            <div class="absolute bottom-5 left-6 text-white">
+              <span class="block text-[9px] font-semibold tracking-[0.25em] uppercase text-white/90 mb-1">Villa</span>
+              <h3 class="font-serif text-sm md:text-base tracking-[0.22em] uppercase" style="font-family: 'Playfair Display', serif;">
+                Coral Dune
+              </h3>
+            </div>
+          </div>
+
+          <!-- Row 2 Left: Villa Sunset Mirage (5 cols) -->
+          <div class="md:col-span-5 relative h-[280px] sm:h-[320px] md:h-[360px] overflow-hidden group">
+            <img src="/Sunset-Mirage-Villa-at-Palm-Jebel-Ali-1.png" alt="Villa Sunset Mirage" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+            <div class="absolute bottom-5 left-6 text-white">
+              <span class="block text-[9px] font-semibold tracking-[0.25em] uppercase text-white/90 mb-1">Villa</span>
+              <h3 class="font-serif text-sm md:text-base tracking-[0.22em] uppercase" style="font-family: 'Playfair Display', serif;">
+                Sunset Mirage
+              </h3>
+            </div>
+          </div>
+
+          <!-- Row 2 Right: Villa Red Aurora (7 cols) -->
+          <div class="md:col-span-7 relative h-[280px] sm:h-[320px] md:h-[360px] overflow-hidden group">
+            <img src="/68d5362bbe8692e803571924_Palm Jebel Ali - The Coral Collection - Red Aurora - Coral Collection Page.jpg" alt="Villa Red Aurora" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+            <div class="absolute bottom-5 left-6 text-white">
+              <span class="block text-[9px] font-semibold tracking-[0.25em] uppercase text-white/90 mb-1">Villa</span>
+              <h3 class="font-serif text-sm md:text-base tracking-[0.22em] uppercase" style="font-family: 'Playfair Display', serif;">
+                Red Aurora
+              </h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- A Perfect Paradise Section -->
+    <section id="perfect-paradise" class="w-full bg-white py-20 px-4 md:px-10 lg:px-16">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <!-- Left Text Content -->
+        <div class="lg:col-span-5 lg:pr-6">
+          <span class="block text-[#7A7A7A] text-[10px] md:text-[11px] font-medium tracking-[0.25em] uppercase mb-4">
+            A Masterpiece In The Making
+          </span>
+
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-[42px] leading-[1.25] text-[#B89860] tracking-[0.22em] uppercase mb-7" style="font-family: 'Playfair Display', serif;">
+            A Perfect<br/>Paradise
+          </h2>
+
+          <p class="text-[#7A7A7A] text-sm md:text-[15px] leading-[1.85] font-normal max-w-md">
+            Palm Jebel Ali is a life lived on an epic scale. This iconic palm-shaped destination will attract admirers from all corners of the globe with its spectacular amenities and beautiful streetscapes. Choose to live in one of the spectacular island districts, where everyday life is elevated from sunrise to sunset. Palm Jebel Ali is energetic and magnetic. A place where everyday moments become extraordinary.
+          </p>
+        </div>
+
+        <!-- Right High-Res Image -->
+        <div class="lg:col-span-7">
+          <div class="w-full h-[380px] sm:h-[460px] md:h-[540px] rounded-xl overflow-hidden shadow-md">
+            <img src="/Rectangle 34624630-5.png" alt="Palm Jebel Ali Interior Seafront View" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lifestyle Destination Aerial Banner -->
+    <section id="lifestyle-destination" class="relative w-full min-h-[520px] md:min-h-[640px] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-start pt-16 md:pt-24 px-4 text-center" style="background-image: url('/image 11.png');">
+      <!-- Subtle Top Gradient Overlay for Text Readability -->
+      <div class="absolute inset-0 bg-gradient-to-b from-black/35 via-transparent to-transparent"></div>
+
+      <div class="relative z-10 max-w-4xl mx-auto">
+        <span class="block text-white/95 text-[11px] md:text-xs font-medium tracking-[0.22em] uppercase mb-3">
+          Leading Lifestyle Amenities:
+        </span>
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl text-white tracking-[0.26em] uppercase leading-snug" style="font-family: 'Playfair Display', serif;">
+          Discover This World-Class<br/>Lifestyle Destination
+        </h2>
+      </div>
+    </section>
+
+    <!-- Perfectly Positioned / Live Between The City And The Sky Section -->
+    <section id="location-map" class="relative w-full min-h-[900px] md:min-h-[1080px] bg-[#0B1924] bg-cover bg-bottom bg-no-repeat px-4 md:px-10 lg:px-16 pt-20 md:pt-28 pb-16" style="background-image: url('/palm 1.png');">
+      <!-- Top-to-bottom subtle dark gradient so top text blends cleanly into the map -->
+      <div class="absolute inset-0 bg-gradient-to-b from-[#0B1924]/80 via-[#0B1924]/25 to-transparent pointer-events-none"></div>
+
+      <div class="relative z-10 max-w-7xl mx-auto">
+        <div class="max-w-xl">
+          <span class="block text-white/80 text-[10px] md:text-[11px] font-medium tracking-[0.28em] uppercase mb-4">
+            Perfectly Positioned
+          </span>
+
+          <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl leading-[1.35] text-[#C5A880] tracking-[0.24em] uppercase mb-6" style="font-family: 'Playfair Display', serif;">
+            Live Between<br/>The City And The<br/>Sky
+          </h2>
+
+          <p class="text-white/75 text-xs sm:text-sm leading-[1.9] tracking-[0.06em] font-light">
+            With everything needed to live a full and balanced lifestyle, you won't need to leave the islands. Palm Jebel Ali is perfectly positioned between Port Jebel Ali and the Jebel Ali Marine Sanctuary. This exceptional location is well connected to other areas of Dubai via the Sheikh Zayed Road (E11), and Al Maktoum Airport is reachable in just under 20 minutes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

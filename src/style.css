@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .cosmic-lift {
+    @apply transition-transform duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(102,252,241,0.2)];
+  }
+}
+
+body {
+  /* Smooth scrolling for the whole page */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar to match theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2833;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #45a29e;
+}
